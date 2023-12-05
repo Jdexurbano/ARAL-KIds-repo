@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,12 +14,12 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <main className="bg-primary tracking-tighter">
+        <main className="bg-primary tracking-tighter font-poppins">
           <Home />
-          <About />
+          {/* <About />
           <Feature />
           <Contact />
-          <Footer />
+          <Footer /> */}
         </main>
       </BrowserRouter>
     </>
