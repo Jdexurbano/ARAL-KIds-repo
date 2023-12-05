@@ -42,7 +42,7 @@ function Home() {
             <img
               src="/images/UI Screenshot.png"
               alt=""
-              className="min-h-[301px] min-w-[401px] max-h-[501px] max-w-[601px] desktop:max-h-[433px] desktop:max-w-[601px]"
+              className="min-h-[301px] min-w-[350px] max-h-[501px] max-w-[601px] desktop:max-h-[433px] desktop:max-w-[601px]"
             />
           </div>
         </div>
