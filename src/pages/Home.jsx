@@ -40,7 +40,7 @@ function Home() {
           </div>
           <div className="ml-[20px] mt-[20px] bg-secondary rounded-l-[20px] flex items-center justify-center desktop:items-end desktop:py-[50px]">
             <img
-              src="/images/UI_Screenshot.png"
+              src="/images/UI Screenshot.png"
               alt=""
               className="min-h-[301px] min-w-[401px] max-h-[501px] max-w-[601px] desktop:max-h-[433px] desktop:max-w-[601px]"
             />
