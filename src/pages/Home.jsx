@@ -11,7 +11,7 @@ function Home() {
         <div className="tablet:flex tablet:items-start tablet:justify-between">
           <div className=" tablet:w-[580px] tablet:ml-[130px] tablet:items-start flex flex-col items-center">
             <h1 className="tablet:text-[55px] tablet:text-left leading-[1.20] font-black text-eight text-[40px]">
-              <span className="text-sixth">A</span>ugmenteddd
+              <span className="text-sixth">A</span>ugmented
             </h1>
             <h1 className="tablet:text-[55px] tablet:text-left leading-[1.20] font-black text-eight text-[40px]">
               <span className="text-fourth">R</span>eality
