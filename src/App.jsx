@@ -17,8 +17,8 @@ function App() {
         <main className="bg-primary tracking-tighter font-poppins">
           <Home />
           <About />
-          {/* <Feature />
-          <Contact />
+          <Feature />
+          {/* <Contact />
           <Footer /> */}
         </main>
       </BrowserRouter>
