@@ -6,10 +6,10 @@ function About() {
     <>
       <section
         id="About"
-        className="h-screen bg-secondary mt-[50px] flex flex-col items-center px-[20px] rounded-[30px]"
+        className=" bg-secondary mt-[50px] pb-[50px] flex flex-col items-center px-[20px] rounded-[30px]"
       >
-        <div className="bg-primary mt-[20px] rounded-[20px]">
-          <img src="/images/About Image.png" alt="About Image" />
+        <div className="bg-primary mt-[20px] rounded-[20px] min-h-max min-w-[350px] max-h-[501px] max-w-[601px]">
+          <img src="/images/About Image.png" alt="About Image" className="" />
         </div>
         <div className="mt-[20px] flex flex-col items-start">
           <h1 className="uppercase font-normal text-[15px] mb-[10px]">
