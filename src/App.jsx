@@ -16,8 +16,8 @@ function App() {
         <NavBar />
         <main className="bg-primary tracking-tighter font-poppins">
           <Home />
-          {/* <About />
-          <Feature />
+          <About />
+          {/* <Feature />
           <Contact />
           <Footer /> */}
         </main>

@@ -1,37 +1,35 @@
+/** @format */
+
 import React from "react";
 function About() {
   return (
     <>
       <section
         id="About"
-        className="w-full h-screen bg-secondary rounded-[50px] pt-[30px] flex items-center justify-center gap-10"
+        className="h-screen bg-secondary mt-[50px] flex flex-col items-center px-[20px] rounded-[30px]"
       >
-        <div
-          className="w-[450px] h-[450px] flex justify-center items-center rounded-[50px] bg-primary"
-          data-aos="fade-right"
-          data-aos-duration="1500"
-        >
+        <div className="bg-primary w-[370px] mt-[30px] rounded-[30px]">
           <img
             src="/images/About Image.png"
             alt="About Image"
-            className="w-[500px] h-[425px]"
+            className="h-[301px] w-[350px]"
           />
         </div>
-        <div className=" font-poppins text-left w-[400px] h-[450px]">
-          <h1 className="uppercase font-medium text-[20px]">about the app</h1>
-          <h1 className="font-bold text-[35px] leading-[1.2] break-before-auto mt-[20px]">
+        <div className="mt-[20px] flex flex-col items-start">
+          <h1 className="uppercase font-normal text-[15px] mb-[10px]">
+            about the app
+          </h1>
+          <h1 className="font-semibold text-[20px] text-slate-950 mb-[10px]">
             Learn Science Topic with Augmented Reality
           </h1>
-          <h1 className="font-medium text-[20px] text-slate-600 mt-[30px]">
+          <h1 className="font-medium text-[16px] text-slate-800 mb-[20px]">
             ARAL Kids makes learning science super fun by using cool technology
             that lets you interact and learn about stuff like magic! You can
             even bring your science lessons to life by seeing cool 3D things
             right in your room with your phone!
           </h1>
-          <button className="w-[170px] h-[70px] bg-nine rounded-[17px] mt-[30px]">
-            <h1 className="text-gray-900 text-[20px] font-bold tracking-tight px-[20px]">
-              Learn More
-            </h1>
+          <button className="font-medium text-[15px] text-slate-200 py-[10px] px-[20px] rounded-[10px] bg-fourth">
+            Learn More
           </button>
         </div>
       </section>
