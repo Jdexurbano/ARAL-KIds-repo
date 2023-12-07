@@ -12,7 +12,7 @@ function Feature() {
         <h1 className="desktop:text-[60px] text-[30px] font-bold text-eight">
           Our Cool Featuress
         </h1>
-        <div className="desktop:w-[500px] w-[400px] tablet:w-[1000px] flex flex-wrap items-center justify-center">
+        <div className=" w-[400px] desktop:w-[1000px] flex flex-wrap items-center justify-center ">
           <FeatureCard />
         </div>
         <div

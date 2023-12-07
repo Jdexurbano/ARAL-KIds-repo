@@ -12,7 +12,7 @@ function FeatureCard() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          <div className="flex flex-col items-start desktop:justify-between h-[150px] desktop:mt-[20px] mt-[5px] ">
+          <div className="flex flex-col items-start desktop:justify-between h-[150px] desktop:mt-[20px] mt-[5px]">
             <h1 className="font-bold desktop:text-[30px] text-[20px]">
               {item.title}
             </h1>
