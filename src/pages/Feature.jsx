@@ -17,8 +17,8 @@ function Feature() {
         </div>
         <div
           className=" desktop:w-[800px] w-[400px] desktop:h-[150px] h-[250px] my-[100px] flex flex-col items-center justify-center gap-[10px] bg-secondary rounded-[50px] drop-shadow-xl"
-          // data-aos="zoom-in"
-          // data-aos-duration="1000"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
         >
           <div>
             <h1 className="font-bold text-eight desktop:text-[20px] text-[13px]">
