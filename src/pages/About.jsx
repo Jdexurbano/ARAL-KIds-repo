@@ -9,7 +9,7 @@ function About() {
         className="h-screen bg-secondary mt-[50px] flex flex-col items-center px-[20px] rounded-[30px]"
       >
         <div className="bg-primary mt-[20px] rounded-[20px]">
-          <img src="/images/About image.png" alt="About Image" />
+          <img src="/images/About Image.png" alt="About Image" />
         </div>
         <div className="mt-[20px] flex flex-col items-start">
           <h1 className="uppercase font-normal text-[15px] mb-[10px]">
