@@ -39,8 +39,8 @@ function Home() {
             </p>
           </div>
           <div
-            // data-aos="fade-left"
-            // data-aos-duration="1500"
+            data-aos="fade-left"
+            data-aos-duration="1500"
             className="ml-[20px] mt-[20px] bg-secondary rounded-l-[20px] desktop:rounded-l-[40] large:rounded-l-[50px] flex items-center justify-center desktop:items-end desktop:py-[50px]"
           >
             <img
