@@ -2,6 +2,10 @@
 
 import React from "react";
 function Home() {
+  const handleDownload = () => {
+    window.location.href =
+      "https://drive.google.com/uc?export=download&id=1EP-zA8Yhoan3INqVrSc-nTx0n8K1Qve5";
+  };
   return (
     <>
       <section
@@ -26,7 +30,10 @@ function Home() {
               <h1 className=" text-seven">Kids</h1>
             </div>
             <div className="mb-[10px] font-semibold desktop:font-bold">
-              <button className="py-[11px] desktop:py-[21px] px-[16px] desktop:px-[32px] bg-fourth rounded-[15px] mr-[5px]">
+              <button
+                className="py-[11px] desktop:py-[21px] px-[16px] desktop:px-[32px] bg-fourth rounded-[15px] mr-[5px]"
+                onClick={handleDownload}
+              >
                 <h1 className="text-slate-200">Download Now</h1>
               </button>
               <button className="py-[10px] desktop:py-[20px] px-[20px] desktop:px-[40px] bg-slate-200 rounded-[15px] ml-[5px] border-[2px] border-fifth hover:bg-fifth duration-300 text-fifth hover:text-slate-200">
