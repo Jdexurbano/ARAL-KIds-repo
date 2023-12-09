@@ -4,7 +4,7 @@ import React from "react";
 function Home() {
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/uc?export=download&id=1EP-zA8Yhoan3INqVrSc-nTx0n8K1Qve5";
+      "https://drive.google.com/uc?export=download&id=1PDFTOn-bOB3jtDh9jR3no1zPFyRz0sZa";
   };
   return (
     <>
