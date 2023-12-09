@@ -24,7 +24,7 @@ function Home() {
               <h1>
                 <span className="text-fifth">A</span>ndroid-Based
               </h1>
-              ``
+            
               <h1>
                 <span className="text-nine">L</span>earning for
               </h1>
